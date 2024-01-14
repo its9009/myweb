@@ -109,36 +109,34 @@ img{
 .log.h3{
     font-family: 'Courier New', Courier, monospace;
 }
-.dow{
-    display:inline-block;
-    padding: 25px 20px;
-    font: optional;
-    font-variant:normal;
-    text-align: center;
-    text-decoration:solid;
-    cursor: pointer;
-    border: 10px solid #3498db; /* Default border color */
-    color: #272a2d; /* Default font color */
-    border-radius: 100px;
-    transition: background-color 0.3s, color 0.3s;
-    position: absolute;
-    bottom: 5px; 
-      
-}
-.dow:hover{
-    background-color: #3498db; /* Hover background color */
-    color: #d8caca; /* Hover font color */
-}
-.dow:active{
-    background-color: #2c3e50; /* Active background color */
-    border-color: #2c3e50;
-    color: #ffffff; /* Active font color */
-}
-.dow span{
-    font-size: 25px;
-    text-align: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 25px 20px;
-    text-decoration: solid;
-    
-}  
+.bt a {
+    width:fit-content;
+    right: 10px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    background-color: #3498db;
+    padding: 20px 15px;
+    border-radius: 5px;
+    color: #3498db;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    animation: move 2s infinite;
+   }
+   
+   .bt a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+   }
+   
+   .bt a span {
+    color: #1c2323;
+    font-family: Arial, sans-serif;
+   }
+
+
